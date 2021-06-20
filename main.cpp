@@ -18,12 +18,10 @@ int main()
     for (int i = 0; i < 100; i++)
     {
         Ho.CreateRandomEvent();
-        auto x = UI.HardwareEventListen(Ho);
         Con.Manage(UI.HardwareEventListen(Ho), Mod, UI);
         Ho.BackToDefault();
     }
 
-    std::cout << "Hello World!" << std::endl;
     return 0;
 }
 
