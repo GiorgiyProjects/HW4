@@ -1,0 +1,11 @@
+<map id="UserEvent" name="UserEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="192,5,275,32"/>
+<area shape="rect" id="node2" href="$classEmptyEvent.html" title=" " alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node3" href="$classKeyboardEvent.html" title=" " alt="" coords="120,80,229,107"/>
+<area shape="rect" id="node4" href="$classUserClick.html" title=" " alt="" coords="254,80,333,107"/>
+<area shape="rect" id="node8" href="$classUserMouseMove.html" title=" " alt="" coords="442,80,563,107"/>
+<area shape="rect" id="node5" href="$classCanvasClick.html" title=" " alt="" coords="43,155,138,181"/>
+<area shape="rect" id="node6" href="$classLoadButtonClick.html" title=" " alt="" coords="162,155,281,181"/>
+<area shape="rect" id="node7" href="$classSaveButtonClick.html" title=" " alt="" coords="305,155,423,181"/>
+<area shape="rect" id="node9" href="$classCanvasMouseMove.html" title=" " alt="" coords="447,155,585,181"/>
+</map>

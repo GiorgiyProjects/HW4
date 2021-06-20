@@ -1,0 +1,3 @@
+/home/runner/work/HW4/HW4/CMakeFiles/rebuild_cache.dir
+/home/runner/work/HW4/HW4/CMakeFiles/edit_cache.dir
+/home/runner/work/HW4/HW4/CMakeFiles/GioGraphic.dir
