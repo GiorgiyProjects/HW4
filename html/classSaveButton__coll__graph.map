@@ -1,0 +1,5 @@
+<map id="SaveButton" name="SaveButton">
+<area shape="rect" id="node2" href="$classWidget.html" title="Widget" alt="" coords="19,171,82,197"/>
+<area shape="rect" id="node3" href="$structRectangle.html" title="Rectangle" alt="" coords="10,81,91,108"/>
+<area shape="rect" id="node4" href="$structShape.html" title="Shape" alt="" coords="21,5,80,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Canvas" name="Canvas">
+<area shape="rect" id="node2" href="$classWidget.html" title="Widget" alt="" coords="15,171,77,197"/>
+<area shape="rect" id="node3" href="$structRectangle.html" title="Rectangle" alt="" coords="5,81,87,108"/>
+<area shape="rect" id="node4" href="$structShape.html" title="Shape" alt="" coords="17,5,75,32"/>
+</map>

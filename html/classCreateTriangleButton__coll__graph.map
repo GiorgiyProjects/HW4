@@ -1,0 +1,5 @@
+<map id="CreateTriangleButton" name="CreateTriangleButton">
+<area shape="rect" id="node2" href="$classWidget.html" title="Widget" alt="" coords="47,171,109,197"/>
+<area shape="rect" id="node3" href="$structRectangle.html" title="Rectangle" alt="" coords="37,81,119,108"/>
+<area shape="rect" id="node4" href="$structShape.html" title="Shape" alt="" coords="49,5,107,32"/>
+</map>

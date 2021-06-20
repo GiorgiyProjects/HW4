@@ -1,0 +1,6 @@
+<map id="UserClick" name="UserClick">
+<area shape="rect" id="node3" href="$classCanvasClick.html" title="CanvasClick" alt="" coords="5,155,103,181"/>
+<area shape="rect" id="node4" href="$classLoadButtonClick.html" title="LoadButtonClick" alt="" coords="127,155,245,181"/>
+<area shape="rect" id="node5" href="$classSaveButtonClick.html" title="SaveButtonClick" alt="" coords="270,155,390,181"/>
+<area shape="rect" id="node2" href="$classUserEvent.html" title="UserEvent" alt="" coords="144,5,228,32"/>
+</map>

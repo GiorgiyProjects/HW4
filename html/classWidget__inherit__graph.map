@@ -1,0 +1,9 @@
+<map id="Widget" name="Widget">
+<area shape="rect" id="node2" href="$classCanvas.html" title="Canvas" alt="" coords="155,5,222,32"/>
+<area shape="rect" id="node3" href="$classCreateSquareButton.html" title="CreateSquareButton" alt="" coords="119,56,259,83"/>
+<area shape="rect" id="node4" href="$classCreateTriangleButton.html" title="CreateTriangleButton" alt="" coords="116,107,261,133"/>
+<area shape="rect" id="node5" href="$classExportButton.html" title="ExportButton" alt="" coords="139,157,238,184"/>
+<area shape="rect" id="node6" href="$classImportButton.html" title="ImportButton" alt="" coords="140,208,237,235"/>
+<area shape="rect" id="node7" href="$classKeyboardWidget.html" title="KeyboardWidget" alt="" coords="129,259,248,285"/>
+<area shape="rect" id="node8" href="$classSaveButton.html" title="SaveButton" alt="" coords="143,309,234,336"/>
+</map>
