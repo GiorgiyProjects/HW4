@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/GioGraphic.dir/main.cpp.o CMakeFiles/GioGraphic.dir/GUI.cpp.o CMakeFiles/GioGraphic.dir/Controller.cpp.o CMakeFiles/GioGraphic.dir/HardwareObjects.cpp.o CMakeFiles/GioGraphic.dir/Events.cpp.o -o GioGraphic 
+/usr/bin/c++ CMakeFiles/GioGraphic.dir/main.cpp.o -o GioGraphic 

@@ -1,21 +1,18 @@
 var indexSectionsWithContent =
 {
-  0: "ceghiklmprsuw",
-  1: "ceghiklmprsuw",
-  2: "h"
+  0: "cdmsv",
+  1: "cdmsv"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes",
-  2: "pages"
+  1: "classes"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Classes",
-  2: "Pages"
+  1: "Classes"
 };
 

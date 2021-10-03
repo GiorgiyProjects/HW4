@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hardwareobjects_42',['HardwareObjects',['../classHardwareObjects.html',1,'']]]
+  ['shape_11',['Shape',['../classShape.html',1,'']]],
+  ['square_12',['Square',['../classSquare.html',1,'']]]
 ];

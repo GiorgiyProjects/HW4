@@ -1,53 +1,88 @@
 #pragma once
-
+#include "Shape.h"
 #include <string>
 #include <vector>
-#include "Events.h"
 
-class Point;
-class Shape;
-class UserEvent;
-
-/*
- * The idea is to use the pattern Memento and store the system States that you can get back to anytime
- * State class stores all the info that is needed for saving or restoring the work progress
- */
-
-class UserInfo
+using namespace std;
+class Document
 {
-    std::string mUserName;
-    std::string mUserId;
-    //Other information we need about user and methods to get or set them
-};
+    string mName;
+    vector<Shape> mShapes;
+    int mId;
+public:
+    Document(string name)
+    {
+        mName = name;
+    }
 
-// Layers like in PhotoShop
-class CanvasLayer
-{
-    std::vector<std::vector<Point*>> mCanvasRGB; // sets of points that defines canvas
-    std::vector<Shape*> mShapes; // I am not sure why we need it, but canvas points are actually grouped in shapes by logic.
-};
+    string GetName()
+    {
+        return mName;
+    }
 
-class CanvasInfo
-{
-    std::vector<CanvasLayer> mLayers;
-};
+    void SetId(int id)
+    {
+        mId = id;
+    }
 
-class State
-{
-    UserInfo mUser;
-    CanvasInfo mCanvas;
+    int GetId()
+    {
+        return mId;
+    }
+
+    void AddShape(Shape* sh)
+    {
+        mShapes.push_back(*sh);
+        sh->SetId(mShapes.size());
+    }
+
+    bool DeleteShape(int id)
+    {
+        int idx = -1;
+        for(int i = 0; i < mShapes.size(); i++)
+        {
+            if (mShapes[i].GetId() == id)
+                idx = i;
+        }
+        if (idx == -1) return false;
+        mShapes.erase(mShapes.begin() + idx);
+        return true;
+    }
 };
 
 class Model
 {
-    std::vector<State> StateStack;
+    vector<Document> mDocs;
 public:
-    // various methods for working with states
-    void SaveStateToFile(std::string filename)
+
+    bool CheckIfDocExists(string name)
     {
-        std::cout << "saving state" << std::endl;
+        for (auto& d:mDocs)
+        {
+            if (d.GetName() == name) return true;
+        }
+        return false;
     }
-    void LoadStateFromFile(std::string filename);
-    void GoBackToPreviousState();
-    bool AttachState(State& s);
+
+    //returns doc id
+    int AddDoc(string name)
+    {
+        Document D(name);
+        D.SetId(mDocs.size());
+        mDocs.push_back(D);
+        return D.GetId();
+    }
+
+    bool AddShapeToDoc(int id, Shape* sh)
+    {
+        if (id > mDocs.size()) return false;
+        mDocs[id].AddShape(sh);
+        return true;
+    }
+
+    bool DeleteShape(int id, int sh_id)
+    {
+        if (id > mDocs.size()) return false;
+        return mDocs[id].DeleteShape(sh_id);
+    }
 };
